@@ -1,6 +1,31 @@
 {
+  "name": "cypress_automationexercise_tests",
+  "version": "1.0.0",
+  "description": "This project is a set of automation tests written using Cypress to test the Automation Exercise website.",
+  "main": "cypress.config.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint",
+    "preview": "vite preview",
+    "cypress": "cypress run"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
   "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
     "cypress": "^14.2.0",
-    "cypress-file-upload": "^5.0.8"
-  }
+    "cypress-file-upload": "^5.0.8",
+    "eslint": "^9.2.1",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "globals": "^15.3.5",
+    "vite": "^6.2.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
