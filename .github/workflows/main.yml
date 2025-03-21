@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-        - e2e
   pull_request:
     branches:
       - main
@@ -23,7 +22,13 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
+
+      - name: Force reinstall Cypress
+        run: npx cypress install
+
+      - name: Verify Cypress installation
+        run: npx cypress --version
 
       - name: Run Cypress tests
         run: npx cypress run
