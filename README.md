@@ -45,4 +45,3 @@ This project uses **GitHub Actions**, which automatically runs tests **whenever 
 2. Select **Run Cypress Tests**
 3. View the test results and error logs if the tests failed
 
-Translated with DeepL.com (free version)
