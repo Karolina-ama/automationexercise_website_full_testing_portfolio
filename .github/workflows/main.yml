@@ -4,10 +4,11 @@ on:
   push:
     branches:
       - main
+        - e2e
   pull_request:
     branches:
       - main
-      
+      - e2e
 
 jobs:
   cypress-run:
